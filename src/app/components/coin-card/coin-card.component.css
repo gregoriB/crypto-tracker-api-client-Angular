@@ -1,0 +1,10 @@
+.coin-card {
+    min-height: 300px;
+    width: 200px;
+    background: tomato;
+    padding: 1rem;
+}
+
+.price {
+    text-align: left;
+}

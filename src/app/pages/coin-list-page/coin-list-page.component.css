@@ -1,0 +1,12 @@
+#coin-list-page {
+    margin: 2rem;
+    background: skyblue;
+    padding: 2rem;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

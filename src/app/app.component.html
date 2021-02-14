@@ -1,12 +1,1 @@
-<style></style>
-
-<div *ngIf="coins.length" class="content" role="main">
-  <h1>Coins</h1>
-  <div *ngFor="let coin of coins">
-    <h2>
-      {{ coin.name }}
-      (<small><em>{{ coin.currency }}</em></small>)
-    </h2>
-    <div>Price (USD): {{ coin.price }}</div>
-  </div>
-</div>
+<coin-list-page></coin-list-page>
