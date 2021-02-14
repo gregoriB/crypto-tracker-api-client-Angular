@@ -1,10 +1,19 @@
 <main id="coin-list-page">
-  <h1>My Coins</h1>
-  <div *ngIf="coins.length"
-    class="content"
-    role="main">
-    <div *ngFor="let coin of coins">
-      <coin-card [coin]="coin"></coin-card>
+  <button class="remove-btn" (click)="resetCoins()">REMOVE ALL COINS</button>
+
+  <h1>Add a Coin</h1>
+
+  <form (ngSubmit)="submitNewCrypto()">
+    <input type="text" [(ngModel)]="newCrypto" name="newCryptoInput">
+    <button type="submit">ADD</button>
+  </form>
+
+  <div *ngIf="coinData.length" role="main">
+    <h2>Your Coins:</h2>
+    <div class="content">
+      <div *ngFor="let coin of coinData">
+        <coin-card (updateCryptos)="updateCryptos()" [coin]="coin"></coin-card>
+      </div>
     </div>
   </div>
 </main>

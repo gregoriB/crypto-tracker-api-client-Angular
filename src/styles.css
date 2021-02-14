@@ -1,5 +1,13 @@
 body {
     margin: 0;
-    padding: 2rem;
+    padding: 10px;
     background-color: #999;
+}
+
+.remove-btn {
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    color: white;
 }

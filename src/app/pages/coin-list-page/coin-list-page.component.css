@@ -1,5 +1,5 @@
 #coin-list-page {
-    margin: 2rem;
+    margin: 0;
     background: skyblue;
     padding: 2rem;
     text-align: center;
@@ -9,4 +9,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.remove-btn {
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    color: white;
 }

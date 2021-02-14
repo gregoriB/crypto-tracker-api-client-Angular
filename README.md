@@ -1,5 +1,7 @@
 # CryptoApp
 
+Enter in a currency symbol(BTC, ETH, ADA, ...and so on) to add a crypto.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
 ## Development server
